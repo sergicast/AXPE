@@ -23,12 +23,12 @@ export const Map = () => {
                 >
                     {
                         markers?.map((marker, i) =>
-                            <Marker
-                                key={i}
-                                position={{
-                                    lat: marker.lat,
-                                    lng: marker.lng
-                                }} />
+                                <Marker
+                                    key={i}
+                                    position={{
+                                        lat: marker.lat,
+                                        lng: marker.lng
+                                    }} />
                         )
                     }
                 </GoogleMap>
